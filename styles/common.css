@@ -1,0 +1,113 @@
+/* Common nav styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Roboto Slab', serif; 
+}
+
+/* footer styles */
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu condensed" sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+.footer > .logo-footer  img {
+    width: 180px;
+    height: 100%;
+}
+
+.footer > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-phone-hours > .hours {
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.footer > .links-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 380px;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+        color: #cea135
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 32px;
+    font-size: 0.7em;
+    color: #858585;
+}
+
+/* skewed header styles */
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+        
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #11122b;
+    color: #cea135;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    padding: 10px;
+    text-align: center;
+}

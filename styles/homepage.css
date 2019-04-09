@@ -1,0 +1,80 @@
+/* Styles for hero section */
+.hero-section {
+    background-image: url(../images/logos/goku-vs-vegeta.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
+
+/* features sections styles */
+.features-section {
+    height: 400px;
+    background-image: url(../images/logos/Vegeta.jpg);
+    background-color: #cea135;
+    border-top: 10px solid black;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58)
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+border-bottom: 5px solid #11122b;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+}
