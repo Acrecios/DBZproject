@@ -111,3 +111,54 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     text-align: center;
 }
+
+/* page container styles */
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > #goku {
+    width: 350px;
+    margin: 25px 40px 20px 0px;
+    float: left;
+    border: 3px solid #cea135
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/* square grid styles */
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+.squares-wrapper > .squares {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.square > .img-wrapper img {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
